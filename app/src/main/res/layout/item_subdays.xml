@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    app:ignore="MissingDefaultResource,NamespaceTypo">
+
+    <LinearLayout
+        android:id="@+id/lvl_main"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/round_box"
+        android:backgroundTint="@color/colorGrey"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date_details"
+            android:drawableTint="#F0EFF3"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="25 Sep"
+            android:textColor="@color/colorBalck" />
+
+        <TextView
+            android:id="@+id/txt_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_time_details"
+            android:drawableTint="#F0EFF3"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:text="Sun"
+            android:textColor="@color/colorBalck" />
+
+        <TextView
+            android:id="@+id/txt_catergory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableTint="#F0EFF3"
+            android:drawableLeft="@drawable/ic_type_details"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:text="Gujarati"
+            android:textColor="@color/colorBalck" />
+    </LinearLayout>
+
+
+</LinearLayout>

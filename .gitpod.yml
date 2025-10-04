@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup Android Project
+    init: |
+      sdkmanager --install "platforms;android-29" "build-tools;30.0.3" "platform-tools"
+      chmod +x gradlew
+      ./gradlew clean
+    command: |
+      ./gradlew assembleDebug
